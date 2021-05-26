@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 * {
-  margin: 0;
+  margin: 10px;
   padding: 0;
 }
 
@@ -28,6 +28,27 @@ body {
 
 .head-text {
   color: white;
+  font-size: 60px;
+}
+
+.sec1-img {
+  height: 95vh;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 255, 0.664)), to(rgba(0, 0, 139, 0.589))), url(../img/pexels-christina-morillo-1181671.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 255, 0.664), rgba(0, 0, 139, 0.589)), url(../img/pexels-christina-morillo-1181671.jpg);
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sec1-title {
+  color: #929be7;
   font-size: 60px;
 }
 /*# sourceMappingURL=main.css.map */
