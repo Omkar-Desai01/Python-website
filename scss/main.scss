@@ -3,6 +3,7 @@
 * {
   margin: 10px;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   background: linear-gradient(to right, #16778f, #6dd5ed);
@@ -24,9 +25,9 @@ body {
   &-img {
     height: 95vh;
     background-image: linear-gradient(
-        to right,
-        rgba(0, 0, 255, 0.664),
-        rgba(0, 0, 139, 0.589)
+        to right top,
+        rgba(191, 191, 235, 0.664),
+        rgba(0, 0, 255, 0.589)
       ),
       url(../img/pexels-christina-morillo-1181671.jpg);
     background-size: cover;
@@ -39,15 +40,39 @@ body {
     text-align: center;
   }
   &-title {
-    color: rgb(146, 155, 231);
+    color: rgb(255, 255, 255);
     font-size: 60px;
   }
   &-btn {
-    border-radius: 50px;
+    border-radius: 30px;
     background-color: white;
-    padding: 10px;
+    padding: 15px;
     color: black;
     text-decoration: none;
     font-size: 40px;
+  }
+}
+.sec2 {
+  &-heading {
+    color: rgb(25, 57, 94);
+    margin-top: 20px;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 2px;
+  }
+
+  &-img-para {
+    display: flex;
+    &--img {
+      width: 50%;
+    }
+    &--para {
+      padding: 100px 50px;
+      word-spacing: 5px;
+      font-size: 20px;
+      font-weight: 700;
+      background: rgba(255, 255, 255, 0.411);
+      border-radius: 50px;
+    }
   }
 }
